@@ -65,13 +65,13 @@ typeWriter();
 
 
 // CONTACT FORM
-const contactForm = document.querySelector('.contact-form');
+// const contactForm = document.querySelector('.contact-form');
 
-contactForm.addEventListener('submit', (e) => {
-    e.preventDefault();
-    alert('Pesan berhasil dikirim 💪');
-    contactForm.reset();
-});
+// contactForm.addEventListener('submit', (e) => {
+//     e.preventDefault();/'
+//     alert('Pesan berhasil dikirim 💪');
+//     contactForm.reset();
+// });
 
 
 // SCROLL ANIMATION (pakai ini aja, hapus window.load)
