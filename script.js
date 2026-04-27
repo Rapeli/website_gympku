@@ -111,6 +111,11 @@ planButtons.forEach(btn => {
 
         setTimeout(() => ripple.remove(), 600);
 
-        alert("🔥 Paket " + planName + " dipilih!");
+        // 👉 GANTI ALERT JADI WHATSAPP
+        const waNumber = "62895618046923"; // ganti nomor kamu
+        const message = `Halo, saya mau ambil paket ${planName}`;
+        const waLink = `https://wa.me/62895618046923?text=${encodeURIComponent(message)}`;
+
+        window.open(waLink, '_blank');
     });
 });
